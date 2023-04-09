@@ -1,0 +1,34 @@
+PLAYER INFO
+- player has a "stamina" bar which dictates what they can do
+- player can wallboost
+- player can wallclimb boost
+- player can dash
+- player can roll
+
+WALL BOOST:
+a wall boost is something the player can do to gain speed and height
+a wall boost is performed by pressing RCTRL while against a wall
+a wall boost gives the player a small boost off of the wall they are up against and some upwards velocity
+a "static" wall boost can be done by letting go of all movement keys and performing a wall boost, which will only give the player upwards velocity and no horizontal velocity
+if a wall boost is done while falling, it will inflict fall damage on the player. this fall damage is much more than the regular fall damage
+a wall boost uses 25 stamina
+
+WALLCLIMB BOOST:
+a wallclimb boost is something the player can do to gain a large amount of height
+a wallclimb boost is performed by pressing W and moving into a wall (holding A or D depending on where the wall is)
+a wallclimb boost gives the player a lot of upwards velocity which helps with climbing tall buildings
+wallclimb boosts cannot be performed while fallng downwards
+a wallclimb boost uses 25 stamina
+
+DASH:
+a dash is something the player can do to gain a lot of horizontal velocity
+a dash can be performed by pressing F while holding A or D
+a dash launches the player forward in the direction of the movement key they're holding
+a dash gives the player a slight boost of velocity upwards as well
+a dash has a cooldown of 1 second when used
+a dash uses 30 stamina
+
+ROLL:
+a roll is something the player can do to negate fall damage
+holding LSHIFT before hitting the ground at a high speed will negate all fall damage
+falling TOO fast however will not allow a roll to negate fall damage, and will instead deal fall damage to the player
